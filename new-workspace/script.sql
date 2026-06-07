@@ -2248,7 +2248,7 @@ EXCEPTION
             1, 1, 2, 'PREPARE_AGENCY_NOTIFICATIONS',
             SQLCODE, SQLERRM, P_TRNS_ID, NULL, P_USER_NAME
         );
-
+ -- Comment
         P_RESUTL_CODE := 0;
         P_RESULT_MESSAGE := 'Error: ' || SQLCODE || ' - ' || SQLERRM;
         IS_SUCCESS := 0;
