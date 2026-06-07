@@ -1,0 +1,10 @@
+# Node
+node_modules/
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+
+# VS Code
+.vscode/
